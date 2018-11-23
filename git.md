@@ -10,3 +10,18 @@
 
 * git reset --hard  //重置暂存区与工作区，与上一次commit保持一致
 * git reset --hard [commit]  //重置当前分支的HEAD为指定commit，同时重置暂存区和工作区，与指定commit一致
+
+* git config 
+* git config -l  //列出所有
+
+  user.name=Kai Cao
+  user.email=kai.cao@lynxi.com>
+  credential.helper=store
+  core.repositoryformatversion=0
+  core.filemode=true
+  core.bare=false
+  core.logallrefupdates=true
+  remote.origin.url=https://github.com/caok168/golangDemos.git
+  remote.origin.fetch=+refs/heads/*:refs/remotes/origin/*
+  branch.master.remote=origin
+  branch.master.merge=refs/heads/master
