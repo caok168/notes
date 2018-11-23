@@ -14,8 +14,8 @@
 * git config 
 * git config -l  //列出所有
 
-  user.name=Kai Cao\n
-  user.email=kai.cao@lynxi.com>
+  > user.name=Kai Cao
+  > user.email=kai.cao@lynxi.com>
   credential.helper=store
   core.repositoryformatversion=0
   core.filemode=true
