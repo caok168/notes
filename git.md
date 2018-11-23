@@ -15,13 +15,13 @@
 * git config -l  //列出所有
 
   > user.name=Kai Cao </br>
-  > user.email=kai.cao@lynxi.com>
-  credential.helper=store
-  core.repositoryformatversion=0
-  core.filemode=true
-  core.bare=false
-  core.logallrefupdates=true
-  remote.origin.url=https://github.com/caok168/golangDemos.git
-  remote.origin.fetch=+refs/heads/*:refs/remotes/origin/*
-  branch.master.remote=origin
-  branch.master.merge=refs/heads/master
+  > user.email=kai.cao@lynxi.com> </br>
+  credential.helper=store </br>
+  core.repositoryformatversion=0 </br>
+  core.filemode=true </br>
+  core.bare=false </br>
+  core.logallrefupdates=true </br>
+  remote.origin.url=https://github.com/caok168/golangDemos.git </br>
+  remote.origin.fetch=+refs/heads/*:refs/remotes/origin/* </br>
+  branch.master.remote=origin </br>
+  branch.master.merge=refs/heads/master </br>
