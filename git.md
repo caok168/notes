@@ -25,3 +25,11 @@
   remote.origin.fetch=+refs/heads/*:refs/remotes/origin/* </br>
   branch.master.remote=origin </br>
   branch.master.merge=refs/heads/master </br>
+
+* git stash
+* git stash list //查看所有的stash
+* git stash drop //移除stash,后面可以跟着stash名字  git stash drop stash@{0}
+* git stash clear //移除所有的stash
+* git stash show //查看指定stash的diff ,后面可以跟着stash名字,在该命令后面添加-p或--patch可以查看特定stash的全部diff
+* git stash pop  //可以通过git stash pop命令恢复之前缓存的工作目录
+* git stash apply  //将缓存堆栈中的stash多次应用到工作目录中，但并不删除stash拷贝
